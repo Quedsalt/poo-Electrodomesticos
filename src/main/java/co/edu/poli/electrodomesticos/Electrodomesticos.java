@@ -15,7 +15,7 @@ public class Electrodomesticos {
     protected static final char CONSUMO_ENERGETICO_DEF = 'F';
     protected static final double PESO_DEF = 5;
             
-    private static final String[] COLORES_VALIDOS = {"Blanco", "Negro", "Rojo", "Azul", "Grix"};
+    private static final String[] COLORES_VALIDOS = {"Blanco", "Negro", "Rojo", "Azul", "Gris"};
     
     public Electrodomesticos(){
         this.precioBase = PRECIO_BASE_DEF;
@@ -32,7 +32,7 @@ public class Electrodomesticos {
         this.consumoEnergetico = CONSUMO_ENERGETICO_DEF;
     }
     
-    //Constructor con todos los atrivutos
+    //Constructor con todos los atributos
     public Electrodomesticos(double precioBase, double peso, char consumoEnergetico, String color){
         this.precioBase = precioBase;
         this.peso = peso;
