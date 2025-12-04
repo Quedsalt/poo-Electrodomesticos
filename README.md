@@ -2,10 +2,7 @@
 Profe no pude conectar mi trabajo para subirlo por lo que voyh a pasar el codigo que hice por aca
 package co.edu.poli.electrodomesticos;
 
-/**
- *
- * @author USER
- */
+
 public class Television extends Electrodomesticos{
     
     private double resolucion;
